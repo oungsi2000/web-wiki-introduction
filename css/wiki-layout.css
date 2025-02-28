@@ -152,3 +152,14 @@ footer p {
   --divider-color: #efefef;
   --font-default-color: #333;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개의 동일한 너비 열 생성 */
+  grid-gap: 0; /* 이미지 사이 간격 설정 (선택 사항) */
+}
+
+.grid-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
